@@ -1,4 +1,4 @@
-kimport streamlit as st
+import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # 加载模型
