@@ -1,0 +1,4 @@
+flask
+git-lfs
+transformers
+torch
