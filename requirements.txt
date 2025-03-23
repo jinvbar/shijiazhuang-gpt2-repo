@@ -1,4 +1,3 @@
-flask
-git-lfs
+kstreamlit
 transformers
 torch
