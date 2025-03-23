@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # 加载模型
-model_name = "jinvbar/shijiazhuang-gpt2"  # 使用正确的用户名
+model_name = "shijiazhuang_model_full"  # 指向本地文件夹
 model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 if tokenizer.pad_token is None:
